@@ -1,28 +1,33 @@
-#Simple List app
-Uma lista de presença feita com Mobx e Provider, com funções de adicionar, editar e remover.
+# Simple List app
 
-Como instalar:
+Este é um aplicativo de lista de presença criado com as bibliotecas Mobx e Provider do Flutter, que oferece funções de adicionar, editar e remover itens da lista.
 
-Passo 1:
+## Instalação
 
-Baixe ou clone este repositório usando o link abaixo:
+Para instalar e executar o aplicativo, siga os seguintes passos:
 
+### Passo 1:
+
+Clone este repositório usando o link abaixo:
 https://github.com/PascoaI/simple_list.git
 
-Passo 2:
+### Passo 2:
 
-Vá para a raiz do projeto na sua IDE, e execute o seguinte comando no console para obter as dependências necessárias:
-
+Abra a raiz do projeto em sua IDE e execute o seguinte comando no terminal para instalar as dependências necessárias:
 -flutter pub get
 
-Passo 3:
+### Passo 3:
 
-Este projeto usa a biblioteca de injeção que trabalha com geração de código, execute o seguinte comando para gerar os arquivos:
-
+Este projeto usa a biblioteca de injeção que trabalha com geração de código. Para gerar os arquivos necessários, execute o seguinte comando no terminal:
 -flutter pub run build_runner build --delete-conflicting-outputs
 
-ou o comando 'watch' para manter o código sincronizado automaticamente:
 
+Você também pode usar o seguinte comando para manter o código sincronizado automaticamente:
 -flutter pub run build_runner watch
 
+##Contribuições
+Este projeto é aberto a contribuições. Se você quiser contribuir, siga os seguintes passos:
 
+Faça um fork do repositório;
+Faça as suas modificações;
+Envie um pull request.
